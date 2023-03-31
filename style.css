@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: beige;
+}
+
+.container{
+    width: 1000px;
+    height: 550px;
+    margin: 20px auto;
+}
+
+.cal{
+    width: 320px;
+    height: 520px;
+    background-color: #eaedef;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.screen{
+    height: 120px;
+}
+
+.history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: gray
+}
+
+.result{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 35px;
+    color: black
+}
+
+
+.button{
+    height: 440px;
+}
+
+.number, .operator, .empty{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.number, .empty{
+    background-color: #eaedef;
+}
+
+.operator{
+    background-color: rgb(40, 192, 230);
+}
+
+.operator:nth-child(1), .operator:nth-child(2), .operator:nth-child(3){
+    background-color: gray;
+}
+
+.operator:nth-child(4), .operator:nth-child(8), .operator:nth-child(12), .operator:nth-child(16), .operator:nth-child(20){
+    font-size: 20px;
+}
+
+.number:hover, .operator:hover{
+    cursor: pointer;
+    background-color: orange;
+}
+
+.number:active, .operator:active{
+    font-size: 13px;
+}
+
+/* .operator:focus, .number:focus{
+    outline: 0;
+} */
