@@ -7,8 +7,5 @@ console.log(divide.id);
 
 const button = document.getElementsByTagName("button")
 
-const click = () =>{
-
-}
 
 addEventListener("click", click)
